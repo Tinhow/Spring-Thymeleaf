@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Preenche a altura mínima da viewport */
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    margin-top: auto; /* Empurra o footer para a parte inferior */
+    padding: 20px;
+    color: white;
+}
+
+ul.nav li a.nav-link {
+    color: white; /* Define a cor do texto para branco */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+ul.nav li a.nav-link:hover {
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100vh;
+}
